@@ -30,11 +30,11 @@ jobs:
 
     steps:
       - attach_workspace:
-          at: /tmp/site
+          at: /tmp/workspace
 
       - run:
           name: Push to S3
-          command: aws s3 sync /tmp/site/. s3://${ORIGIN_BUCKET_NAME}
+          command: aws s3 sync /tmp/workspace/_site/. s3://${ORIGIN_BUCKET_NAME}
 
       - run:
           name: Clear Cloudfront Cache
