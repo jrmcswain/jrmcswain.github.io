@@ -8,8 +8,12 @@ jobs:
       - checkout
 
       - run:
+          name: Install Bundler
+          command: gem install bundler
+
+      - run:
           name: Install Dependencies
-          command: gem install bundler jekyll
+          command: bundle install
 
       - run:
           name: Generate Site
