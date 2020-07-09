@@ -9,8 +9,6 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 I am glad you asked, there are actualy very good reasons for this:
 
 
-- Bulleted
-- List
 
 1. The sudden and loud noises are a constant source of agitation for our veterans with PTSD.
 
