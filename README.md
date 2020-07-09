@@ -23,19 +23,3 @@ I am glad you asked, there are actualy very good reasons for this:
 6. On the 4th of July, many areas are under a high fire danger warning. The loss of personal property and wildlands that are a refuge for animals .
 
 7. Most places where fireworks are used, it is actually illegal to use or sometimes posess the fireworks. This wastes millions of tax payer dollars and police resources that could be put to better use. Let's face it, citizens can no longer be trusted to do the right thing.
-
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jrmcswain/jrmcswain.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
