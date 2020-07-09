@@ -1,5 +1,3 @@
-## Welcome to Ban-Fireworks.com
-
 The idea is to bring together all interested parties to help ban firework sales to private citizens. Be a repository for information to help citizens get legislation introduced to ban the sale of fireworks in their state.
 
 
