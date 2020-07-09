@@ -19,16 +19,22 @@ jobs:
           name: Generate Site
           command: JEKYLL_ENV=production bundle exec jekyll build
 
+      - persist_to_workspace:
+          root: .
+          paths:
+            - ./_site/
+
   deploy:
     docker:
       - image: jamcswain/circleci-aws-cli
 
     steps:
-      - checkout
+      - attach_workspace:
+          at: /tmp/site
 
       - run:
           name: Push to S3
-          command: aws s3 sync _site/. s3://${ORIGIN_BUCKET_NAME}
+          command: aws s3 sync /tmp/site/. s3://${ORIGIN_BUCKET_NAME}
 
       - run:
           name: Clear Cloudfront Cache
