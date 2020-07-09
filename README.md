@@ -4,22 +4,22 @@ The idea is to bring together all interested parties to help ban firework sales 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### WHY?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I am glad you asked, there are actualy very good reasons for this:
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
 
 - Bulleted
 - List
 
-1. Numbered
-2. List
+1. The sudden and loud noises are a constant source of agitation for our veterans with PTSD.
+
+2. Many wild and domestic animals are driven into a flight state and have injured themselves trying to flee the noise.
+
+3. The World Health organization is concerned that the noise is over 120 decibels, that is considered the pain threshold for humans and also lead to permanent hearing loss.
+
+4. Lead and other chemicals released into the air, cause breathing difficulties for individuals with asthma,COPD, lung cancer etc. As well as the polution it creates.
+
 
 **Bold** and _Italic_ and `Code` text
 
