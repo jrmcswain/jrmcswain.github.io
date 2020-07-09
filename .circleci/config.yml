@@ -2,6 +2,21 @@ version: 2
 jobs:
   build:
     docker:
+      - image: circleci/ruby:2.7
+
+    steps:
+      - checkout
+
+      - run:
+          name: Install Dependencies
+          command: gem install bundler jekyll
+
+      - run:
+          name: Generate Site
+          command: JEKYLL_ENV=production bundle exec jekyll build
+
+  deploy:
+    docker:
       - image: jamcswain/circleci-aws-cli
 
     steps:
@@ -9,7 +24,7 @@ jobs:
 
       - run:
           name: Push to S3
-          command: aws s3 sync . s3://${ORIGIN_BUCKET_NAME}
+          command: aws s3 sync _site/. s3://${ORIGIN_BUCKET_NAME}
 
       - run:
           name: Clear Cloudfront Cache
