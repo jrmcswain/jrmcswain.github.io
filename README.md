@@ -1,6 +1,6 @@
 ## Welcome to Ban-Fireworks.com
 
-You can use the [editor on GitHub](https://github.com/jrmcswain/jrmcswain.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The idea is to bring together all interested parties to help ban firework sales to private citizens. Be a repository for information to help citizens get legislation introduced to ban the sale of fireworks in their state.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
