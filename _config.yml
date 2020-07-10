@@ -1,2 +1,7 @@
 theme: jekyll-theme-modernist
 title: Welcome to ban-fireworks.com
+
+plugins:
+  # Unintuitively, the default layout in themes still
+  # must be explicitly requested. This fixes that
+  - jekyll-default-layout
