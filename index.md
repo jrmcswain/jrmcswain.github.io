@@ -25,3 +25,5 @@ I am glad you asked, there are actualy very good reasons for this:
 6. On the 4th of July, many areas are under a high fire danger warning. The loss of personal property and wildlands that are a refuge for animals .
 
 7. Most places where fireworks are used, it is actually illegal to use or sometimes posess the fireworks. This wastes millions of tax payer dollars and police resources that could be put to better use. Let's face it, citizens can no longer be trusted to do the right thing.
+
+Copyright 2020
