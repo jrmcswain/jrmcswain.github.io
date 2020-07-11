@@ -1,0 +1,59 @@
+name: Deploy
+
+on: [push]
+
+jobs:
+  build:
+    name: Build site
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clone source
+      uses: actions/checkout@v2
+
+    - name: Setup Ruby 2.7
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '2.7'
+
+    - name: Build Jekyll
+      env:
+        JEKYLL_ENV: production
+      run: |
+        gem install bundler
+        bundle install --jobs 4 --retry 3
+        bundle exec jekyll build
+
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v1
+      with:
+        name: build
+        path: _site/
+
+  deploy:
+    name: Deploy site
+    if: success() && github.ref == 'refs/heads/master'
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Download build artifacts
+      uses: actions/download-artifact@v1
+      with:
+        name: build
+
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+    - name: Copy files to the S3 origin with the AWS CLI
+      run: |
+        ls -lah . && \
+        ls -lah build/ && \
+        aws s3 sync build/. s3://${{ secrets.ORIGIN_BUCKET_NAME }}
+
+    - name: Invalidate the CloudFront cache
+      run: |
+        aws cloudfront create-invalidation --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
