@@ -12,6 +12,7 @@ image: /images/photo-bkg.jpg
 		</div>
 	</div>
 	<div class="learn-more"><a href="#learn-more">Learn more <span class="arrow">&#x25BC;</span></a></div>
+<img src="https://img.icons8.com/color/96/000000/firework.png"/>
 </section>
 
 <div class="content">
