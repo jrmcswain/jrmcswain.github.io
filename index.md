@@ -24,8 +24,8 @@ image: /images/photo-bkg.jpg
 			<div class="text">
 				<h2 class="editable">WHY?</h2>
 				<p>I am glad you asked, there are actualy very good reasons for this.</p>
-				
-<ul>
+		
+	<ul>
 	<li>The sudden and loud noises are a constant source of agitation for our veterans with PTSD.</li>
 
 	<li>Many wild and domestic animals are driven into a flight state and have injured themselves trying to flee the noise.</li>
