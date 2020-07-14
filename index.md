@@ -10,11 +10,11 @@ image: /images/photo-bkg.jpg
 			<h1 style="text-align:center;">Ban Fireworks</h1>
 			<p style="text-align:center;">Ban the sales of fireworks to individuals.</p>
 		</div>
-	<!-- hitwebcounter Code START -->
+	</div>
+		<!-- hitwebcounter Code START -->
 <a href="https://www.hitwebcounter.com" target="_blank">
 <img src="https://hitwebcounter.com/counter/counter.php?page=7543230&style=0010&nbdigits=5&type=ip&initCount=0" title="Web Counter" Alt="counter free"   border="0" >
 </a>          
-	</div>
 	<div class="learn-more"><a href="#learn-more">Learn more <span class="arrow">&#x25BC;</span></a></div>
 </section>
 
