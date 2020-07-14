@@ -42,7 +42,7 @@ image: /images/photo-bkg.jpg
 </ul>			
 			</div>
 			<div class="image">
-				<img class="editable" src="podium.jpg" alt="Screenshot" />
+				<img class="editable" src="\images\podium.jpg" alt="Screenshot" />
 			</div>
 		</div>
 	</section>
