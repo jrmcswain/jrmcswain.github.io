@@ -2,8 +2,8 @@
 # Site
 
 title: Ban Fireworks
-url: ban-fireworks.com
-baseurl: ban-fireworks.com
+url: https://ban-fireworks.com
+baseurl: /
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
