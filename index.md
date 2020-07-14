@@ -23,7 +23,7 @@ image: /images/photo-bkg.jpg
 		<div class="container flex">
 			<div class="text">
 				<h2 class="editable">WHY?</h2>
-				<p>I am glad you asked, there are actualy very good reasons for this.
+				<p>I am glad you asked, there are actualy very good reasons for this.</p>
 				
 <ul>
 	<li>The sudden and loud noises are a constant source of agitation for our veterans with PTSD.</li>
