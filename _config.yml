@@ -10,16 +10,16 @@ disqus_shortname: ""
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Template for Jekyll.
+description: Ban Firework sales
 author:
   name:
   email:
-  twitter: # twitter username without the @ symbol
+  twitter: jrmcswain # twitter username without the @ symbol
 social:
-  name: Frisco Template
+  name: ban-fireworks.com
   links:
-    - https://github.com/CloudCannon/frisco-jekyll-template
-
+    - https://ban-fireworks.com
+    
 # -----
 # Build
 
